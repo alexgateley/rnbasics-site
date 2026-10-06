@@ -3,15 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RN Basics — NCLEX-RN prep, coming soon</title>
+  <title>RN Basics — NCLEX-RN practice questions and case studies</title>
   <meta name="description" content="RN Basics: NCLEX-RN practice with clinical-judgment case studies, Next Gen item types and an adaptive mock exam. From the makers of ICU Basics.">
-  <link rel="icon" href="https://icubasics.com/assets/favicon.png">
+  <link rel="icon" href="assets/icon-512.png">
+  <meta property="og:title" content="RN Basics — NCLEX-RN practice, free in your browser">
+  <meta property="og:description" content="1,296 NCLEX-RN questions with rationales, 60 clinical-judgment case studies and an adaptive mock exam. No download or account needed.">
+  <meta property="og:image" content="https://rnbasics.com/assets/icon-512.png">
+  <meta property="og:url" content="https://rnbasics.com/">
   <style>
     :root { --bg: #0B1220; --card: #141D31; --line: #23304A; --text: #F2F5FB; --muted: #97A3BC; --accent: #2DD4BF; --accent-deep: #0F9D8E; }
     * { box-sizing: border-box; }
     body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: radial-gradient(80% 60% at 50% 0%, #13233f 0%, var(--bg) 60%); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; padding: 24px; }
     main { max-width: 560px; text-align: center; display: grid; gap: 18px; justify-items: center; }
-    .mark { width: 64px; height: 64px; border-radius: 18px; background: linear-gradient(135deg, var(--accent), #0284C7); box-shadow: 0 20px 50px rgba(45, 212, 191, 0.25); }
+    .mark { width: 88px; height: 88px; border-radius: 22px; box-shadow: 0 20px 50px rgba(45, 212, 191, 0.25); }
+    ul.points { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; text-align: left; color: var(--text); font-size: 16px; }
+    ul.points li::before { content: "✓"; color: var(--accent); font-weight: 800; margin-right: 10px; }
+    a.btn.big { font-size: 18px; padding: 15px 24px; }
     .eyebrow { color: var(--accent); font-weight: 700; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; }
     h1 { margin: 0; font-size: clamp(34px, 7vw, 52px); line-height: 1.05; letter-spacing: -0.5px; }
     p { margin: 0; color: var(--muted); font-size: 17px; max-width: 46ch; }
@@ -25,17 +32,26 @@
 </head>
 <body>
   <main>
-    <div class="mark" aria-hidden="true"></div>
+    <img class="mark" src="assets/icon-512.png" alt="RN Basics app icon">
     <div class="eyebrow">From the makers of ICU Basics</div>
     <h1>RN Basics</h1>
-    <p>NCLEX-RN practice built the way the exam works now: clinical-judgment case studies, Next Gen item types with partial credit, and a mock exam that adapts and stops when it is sure. Coming soon to the App Store, free at launch. Google Play to follow.</p>
-    <p class="note">We may add a paid tier for future content, but our first goal is to make the app great for the nurses using it now.</p>
+    <p>NCLEX-RN practice built the way the exam works now: clinical-judgment case studies, Next Gen item types with partial credit, and a mock exam that adapts and stops when it is sure.</p>
     <div class="actions">
-      <a class="btn" href="https://apps.apple.com/us/app/icu-basics/id6809866200">Study with ICU Basics today</a>
-      <a class="btn ghost" href="https://instagram.com/rnbasicsnclex">A question a day on Instagram</a>
+      <a class="btn big" href="app/">Start practicing free in your browser</a>
+    </div>
+    <p class="note">No download or account needed. Your progress stays in your browser. iPhone and Android apps coming soon.</p>
+    <ul class="points">
+      <li>1,296 practice questions with a rationale for every answer choice and the sources behind it</li>
+      <li>60 clinical-judgment case studies: highlight, matrix, cloze, drag-to-order and bow-tie items</li>
+      <li>An adaptive mock exam, 85 to 150 questions built to the 2026 test plan</li>
+      <li>Rhythm strip drill, study calculators and spaced-repetition review</li>
+    </ul>
+    <div class="actions">
       <a class="btn ghost" href="sheets/">Free one-page study sheets</a>
+      <a class="btn ghost" href="https://instagram.com/rnbasicsnclex">A question a day on Instagram</a>
     </div>
     <footer>
+      <p class="family" style="margin:0 0 10px;font-size:13px">The Basics apps: <a href="https://icubasics.com">ICU Basics</a> (CCRN, PCCN, CEN and more) · <a href="https://rnbasics.com">RN Basics</a> (NCLEX-RN) · <a href="https://medicbasics.com">Medic Basics</a> (NREMT, FP-C, CCP-C)</p>
       NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc., which is not affiliated with or endorsed by this app. <a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a> · <a href="mailto:agateley@gmail.com">agateley@gmail.com</a> · <a href="https://icubasics.com">icubasics.com</a>
     </footer>
   </main>
