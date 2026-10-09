@@ -3,57 +3,206 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RN Basics — NCLEX-RN practice questions and case studies</title>
-  <meta name="description" content="RN Basics: NCLEX-RN practice with clinical-judgment case studies, Next Gen item types and an adaptive mock exam. From the makers of ICU Basics.">
-  <link rel="icon" href="assets/icon-512.png">
+  <title>RN Basics — NCLEX-RN practice questions, Next Gen case studies and an adaptive mock exam</title>
+  <meta name="description" content="1,296 NCLEX-RN practice questions with a rationale for every answer choice, 60 Next Generation clinical-judgment case studies, and an adaptive mock exam built to the 2026 test plan. Free in your browser; iPhone and Android apps coming soon.">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
   <meta property="og:title" content="RN Basics — NCLEX-RN practice, free in your browser">
   <meta property="og:description" content="1,296 NCLEX-RN questions with rationales, 60 clinical-judgment case studies and an adaptive mock exam. No download or account needed.">
   <meta property="og:image" content="https://rnbasics.com/assets/icon-512.png">
   <meta property="og:url" content="https://rnbasics.com/">
-  <style>
-    :root { --bg: #0B1220; --card: #141D31; --line: #23304A; --text: #F2F5FB; --muted: #97A3BC; --accent: #2DD4BF; --accent-deep: #0F9D8E; }
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: radial-gradient(80% 60% at 50% 0%, #13233f 0%, var(--bg) 60%); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; padding: 24px; }
-    main { max-width: 560px; text-align: center; display: grid; gap: 18px; justify-items: center; }
-    .mark { width: 88px; height: 88px; border-radius: 22px; box-shadow: 0 20px 50px rgba(45, 212, 191, 0.25); }
-    ul.points { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; text-align: left; color: var(--text); font-size: 16px; }
-    ul.points li::before { content: "✓"; color: var(--accent); font-weight: 800; margin-right: 10px; }
-    a.btn.big { font-size: 18px; padding: 15px 24px; }
-    .eyebrow { color: var(--accent); font-weight: 700; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; }
-    h1 { margin: 0; font-size: clamp(34px, 7vw, 52px); line-height: 1.05; letter-spacing: -0.5px; }
-    p { margin: 0; color: var(--muted); font-size: 17px; max-width: 46ch; }
-    p.note { font-size: 14px; }
-    .actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 6px; }
-    a.btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 12px; font-weight: 700; text-decoration: none; color: #fff; background: var(--accent-deep); }
-    a.btn.ghost { background: var(--card); border: 1px solid var(--line); color: var(--text); }
-    footer { margin-top: 32px; color: var(--muted); font-size: 12px; max-width: 60ch; }
-    footer a { color: var(--muted); }
-  </style>
 </head>
 <body>
-  <main>
-    <img class="mark" src="assets/icon-512.png" alt="RN Basics app icon">
-    <div class="eyebrow">From the makers of ICU Basics</div>
-    <h1>RN Basics</h1>
-    <p>NCLEX-RN practice built the way the exam works now: clinical-judgment case studies, Next Gen item types with partial credit, and a mock exam that adapts and stops when it is sure.</p>
-    <div class="actions">
-      <a class="btn big" href="app/">Start practicing free in your browser</a>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="/"><img src="assets/icon-512.png" alt=""> RN Basics</a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#exams">Exams</a>
+        <a href="#faq">FAQ</a>
+        <a href="sheets/">One-Pagers</a>
+        <a href="support.html">Support</a>
+        <a class="btn" href="app/">Practice free</a>
+      </nav>
     </div>
-    <p class="note">No download or account needed. Your progress stays in your browser. iPhone and Android apps coming soon.</p>
-    <ul class="points">
-      <li>1,296 practice questions with a rationale for every answer choice and the sources behind it</li>
-      <li>60 clinical-judgment case studies: highlight, matrix, cloze, drag-to-order and bow-tie items</li>
-      <li>An adaptive mock exam, 85 to 150 questions built to the 2026 test plan</li>
-      <li>Rhythm strip drill, study calculators and spaced-repetition review</li>
-    </ul>
-    <div class="actions">
-      <a class="btn ghost" href="sheets/">Free one-page study sheets</a>
-      <a class="btn ghost" href="https://instagram.com/rnbasicsnclex">A question a day on Instagram</a>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">For nursing students and new graduates</div>
+        <h1>Pass the NCLEX-RN with practice that works like the real exam.</h1>
+        <p class="lead">1,296 NCLEX-style questions with a rationale for every answer choice, 60 Next Generation case studies with every item type, and an adaptive mock exam that stops when it is sure of your result.</p>
+        <div class="hero-actions">
+          <a class="btn" href="app/">Start practicing free in your browser</a>
+        </div>
+        <div class="hero-actions store-row" style="margin-top:12px">
+          <span class="btn store soon" role="img" aria-label="Coming soon to the App Store">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.42 2.2-1.25 3.07-.87.94-2.06 1.55-3.2 1.45-.06-1.11.42-2.24 1.23-3.08.86-.9 2.17-1.5 3.22-1.44zM20.9 17.27c-.53 1.22-.78 1.77-1.46 2.85-.95 1.51-2.29 3.39-3.95 3.4-1.47.02-1.85-.97-3.85-.96-2 .01-2.42.98-3.9.96-1.66-.02-2.93-1.71-3.88-3.22-2.66-4.22-2.94-9.17-1.3-11.8 1.17-1.87 3.01-2.96 4.74-2.96 1.76 0 2.87 1 4.33 1 1.42 0 2.28-1 4.32-1 1.54 0 3.17.87 4.33 2.37-3.81 2.17-3.19 7.83.62 9.36z"/></svg>
+              <span><span class="small">Coming soon to the</span><span class="big">App Store</span></span>
+            </span>
+            <span class="btn store soon" role="img" aria-label="Coming soon to Google Play">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 1.8c-.35.32-.55.82-.55 1.45v17.5c0 .63.2 1.13.55 1.45l9.85-10.2L3.6 1.8zm11.1 11.45 2.75 2.85-12.1 6.9 9.35-9.75zm0-2.5L5.35 1 17.45 7.9 14.7 10.75zm4.05-2.05 3.25 1.85c.95.55.95 1.95 0 2.5l-3.25 1.85-3.05-3.1 3.05-3.1z"/></svg>
+              <span><span class="small">Coming soon to</span><span class="big">Google Play</span></span>
+            </span>
+        </div>
+        <p class="hero-note">Works on any computer, tablet or phone browser today. No account needed, and your progress stays in your browser.</p>
+      </div>
+      <figure class="hero-art"><img src="assets/01-mock-exam.png" alt="RN Basics adaptive NCLEX-RN mock exam screen" width="552" height="1200"></figure>
     </div>
-    <footer>
-      <p class="family" style="margin:0 0 10px;font-size:13px">The Basics apps: <a href="https://icubasics.com">ICU Basics</a> (CCRN, PCCN, CEN and more) · <a href="https://rnbasics.com">RN Basics</a> (NCLEX-RN) · <a href="https://medicbasics.com">Medic Basics</a> (NREMT, FP-C, CCP-C)</p>
-      NCLEX® is a registered trademark of the National Council of State Boards of Nursing, Inc., which is not affiliated with or endorsed by this app. <a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a> · <a href="mailto:agateley@gmail.com">agateley@gmail.com</a> · <a href="https://icubasics.com">icubasics.com</a>
-    </footer>
-  </main>
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><b>1,296</b><span>NCLEX-style questions</span></div>
+        <div class="stat"><b>60</b><span>Next Gen case studies</span></div>
+        <div class="stat"><b style="white-space:nowrap">85–150</b><span>item adaptive mock exam</span></div>
+        <div class="stat"><b>100%</b><span>rationales, every choice</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>Built like the Next Gen NCLEX</h2>
+      <p class="sub">Every question is a client scenario written to the NCSBN clinical judgment model, and every option explains why it is right or wrong.</p>
+      <div class="grid">
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4h6v3H9z"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="M9 12h6M9 16h4"/></svg></div>
+          <h3>Next Gen case studies</h3>
+          <p>Sixty unfolding cases, each with six linked items that walk the clinical judgment steps: recognize cues, analyze, prioritize, generate solutions, take action and evaluate. Bowtie, matrix, drop-down, highlight, ordering and select-all items, scored with partial credit the way the exam does.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/></svg></div>
+          <h3>An adaptive mock exam</h3>
+          <p>Like the real test, it adapts to every answer: 85 to 150 items in up to 5 hours, drawn to the 2026 test plan with case studies in the first 85, and it stops once it is 95% sure of your result.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h10M4 17h7"/><path d="M15 15l5 5"/></svg></div>
+          <h3>Real test-screen tools</h3>
+          <p>On a computer, practice the way you will test: cross out answers you have ruled out, highlight words in the question, and open lab values or a calculator in a side panel. Keyboard shortcuts keep you moving.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2"/></svg></div>
+          <h3>A plan that fits your exam date</h3>
+          <p>Choose a daily goal: finish the bank by exam day, or a set number of questions. Spaced repetition brings misses back right before you would forget them, and Level Up builds sets from easier to harder in your weakest area.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18M6 16V9M11 16V5M16 16v-7M21 16V3"/></svg></div>
+          <h3>Know where you stand</h3>
+          <p>Accuracy by client-needs category, case study scores by clinical judgment step, mock exam results over time, and a readiness estimate with your weakest category called out.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="13" height="16" rx="2"/><path d="M8 4v16M20 7v13a1 1 0 0 1-1 1H8"/></svg></div>
+          <h3>Bottom lines and flashcards</h3>
+          <p>Every question ends with a one-line bottom line, the rule to remember. Save any question as a flashcard, study the ones that are due, and keep your own notes in one notebook.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l3-8 4 16 3-8h6"/></svg></div>
+          <h3>Rhythm strip drill</h3>
+          <p>Ten timed ECG strips that sweep across like a real monitor, 15 seconds each, so you learn to recognize the rhythms the NCLEX expects you to act on.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h3"/></svg></div>
+          <h3>Dosage calculators</h3>
+          <p>Drip rates, IV pump rates, weight-based and pediatric safe doses, intake and output and more, each showing the formula so you learn the math. For education only.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></div>
+          <h3>Sources and one-pagers</h3>
+          <p>Every rationale lists the texts behind it, and <a href="sheets/">one-page summaries</a> cover high-yield topics from sepsis and shock to ABGs and electrolytes, each with a printable one-page PDF.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="screens">
+    <div class="wrap">
+      <h2>A look inside</h2>
+      <p class="sub">Tap any key term in an explanation for a quick definition. Flag questions, add notes, and search the whole bank.</p>
+      <div class="shots">
+        <figure class="shot"><img src="assets/02-case-study.png" alt="Next Gen case study with nurses' notes and a highlight item" loading="lazy"><figcaption>Next Gen case studies</figcaption></figure>
+        <figure class="shot"><img src="assets/03-rationales.png" alt="Answered question with rationales for each option" loading="lazy"><figcaption>Rationales for every choice</figcaption></figure>
+        <figure class="shot"><img src="assets/04-dashboard.png" alt="Dashboard with today's goal and accuracy" loading="lazy"><figcaption>A daily plan to exam day</figcaption></figure>
+        <figure class="shot"><img src="assets/05-stats.png" alt="Stats with readiness and upcoming reviews" loading="lazy"><figcaption>Readiness and reviews</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="exams">
+    <div class="wrap">
+      <h2>Exams</h2>
+      <p class="sub">Questions are mapped to the eight client-needs categories of the NCLEX-RN test plan.</p>
+      <div class="exams">
+        <div class="exam"><span class="tag">NCSBN</span><h3>NCLEX-RN</h3><p><span class="count">1,296 questions</span> · 60 case studies · an adaptive mock exam of 85 to 150 items on the 2026 test plan</p></div>
+        <div class="exam soon"><span class="tag">Coming</span><h3>NCLEX-PN</h3><p>In development</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <details open>
+        <summary>Are these the real NCLEX questions?</summary>
+        <p>No. Every question and case study is original, written to the NCSBN test plan and clinical judgment model, then checked for accuracy and for the "tells" that let test-wise students guess. RN Basics is an independent study tool and is not affiliated with the NCSBN.</p>
+      </details>
+      <details>
+        <summary>How does the adaptive mock exam work?</summary>
+        <p>Each answer changes the difficulty of the next item, the way computerized adaptive testing does on the real exam. It gives between 85 and 150 items in up to 5 hours and stops once it is 95% confident your ability is above or below the passing standard. Three case studies are worked into the first 85 items.</p>
+      </details>
+      <details>
+        <summary>Do I need an account? Where is my progress kept?</summary>
+        <p>No account. Your progress stays in your browser on this device, and you can download a backup file and restore it on another device. The only data sent is anonymous usage analytics, which you can turn off in Settings → Your Data.</p>
+      </details>
+      <details>
+        <summary>When are the iPhone and Android apps coming?</summary>
+        <p>Both are coming soon to the App Store and Google Play. Until then, the web app has everything and works in any browser, including on your phone.</p>
+      </details>
+      <details>
+        <summary>What does the readiness estimate mean?</summary>
+        <p>It blends your mock exam results, practice accuracy and case study scores, and shows how much data it is based on. It is an estimate of current performance to guide your studying, not a prediction that you will pass.</p>
+      </details>
+      <details>
+        <summary>I think a question is wrong.</summary>
+        <p>Tap "Report a problem with this question" under any explanation. It opens an email with the question already filled in, and every report is reviewed.</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="cta">
+      <h2>Study with a plan, not a pile.</h2>
+      <p>Set your exam date, pick a daily goal, and let RN Basics keep you on track.</p>
+      <div class="store-row" style="justify-content:center">
+        <a class="btn" href="app/">Start practicing free</a>
+      </div>
+      <div class="store-row" style="justify-content:center;margin-top:12px">
+        <span class="btn store soon" role="img" aria-label="Coming soon to the App Store">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.42 2.2-1.25 3.07-.87.94-2.06 1.55-3.2 1.45-.06-1.11.42-2.24 1.23-3.08.86-.9 2.17-1.5 3.22-1.44zM20.9 17.27c-.53 1.22-.78 1.77-1.46 2.85-.95 1.51-2.29 3.39-3.95 3.4-1.47.02-1.85-.97-3.85-.96-2 .01-2.42.98-3.9.96-1.66-.02-2.93-1.71-3.88-3.22-2.66-4.22-2.94-9.17-1.3-11.8 1.17-1.87 3.01-2.96 4.74-2.96 1.76 0 2.87 1 4.33 1 1.42 0 2.28-1 4.32-1 1.54 0 3.17.87 4.33 2.37-3.81 2.17-3.19 7.83.62 9.36z"/></svg>
+              <span><span class="small">Coming soon to the</span><span class="big">App Store</span></span>
+            </span>
+            <span class="btn store soon" role="img" aria-label="Coming soon to Google Play">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.6 1.8c-.35.32-.55.82-.55 1.45v17.5c0 .63.2 1.13.55 1.45l9.85-10.2L3.6 1.8zm11.1 11.45 2.75 2.85-12.1 6.9 9.35-9.75zm0-2.5L5.35 1 17.45 7.9 14.7 10.75zm4.05-2.05 3.25 1.85c.95.55.95 1.95 0 2.5l-3.25 1.85-3.05-3.1 3.05-3.1z"/></svg>
+              <span><span class="small">Coming soon to</span><span class="big">Google Play</span></span>
+            </span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <div class="links">
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy policy</a>
+          <a href="https://instagram.com/rnbasicsnclex">Instagram @rnbasicsnclex</a>
+          <a href="mailto:agateley@gmail.com">agateley@gmail.com</a>
+        </div>
+        <p class="family" style="margin:10px 0 0;font-size:13px;color:var(--muted)">The Basics apps: <a href="https://icubasics.com">ICU Basics</a> (CCRN, PCCN, CEN and more) · <a href="https://rnbasics.com">RN Basics</a> (NCLEX-RN) · <a href="https://medicbasics.com">Medic Basics</a> (NREMT, FP-C, CCP-C)</p>
+        <p class="legal">Created by an ICU nurse educator (BSN, CCRN, CEN). RN Basics is an independent study tool and is not affiliated with, endorsed by, or sponsored by the National Council of State Boards of Nursing, Inc. NCLEX® and NCLEX-RN® are registered trademarks of the NCSBN. Content is for exam preparation and education and is not a substitute for clinical judgment or institutional protocols.</p>
+      </div>
+      <div>© 2026 RN Basics</div>
+    </div>
+  </footer>
 </body>
 </html>
